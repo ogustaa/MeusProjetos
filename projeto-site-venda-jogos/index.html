@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS EXTERNO -->
+     <link rel="stylesheet" href="./src/css/estilo.css">
+    <title>Loja Gamer</title>
+
+</head>
+<body>
+
+    <header>
+        <h1 class="logo">LOJA<span>GAMER</span></h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Jogos</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><button id="theme">M</button></li>
+            </ul>
+        </nav>
+        <div class="carrinho">
+            <span id="carrinho-contador">Itens: 0</span>
+        </div> 
+    </header>
+
+    <section class="slider">
+        <article class="slides">
+            <div class="slide active">
+                <img src="./src/assets/Kerfin7_NEA_2332.jpg" alt="game 1">
+            </div>
+             <div class="slide">
+                <img src="./src/assets/view-3d-video-game-controller.jpg" alt="game 2">
+            </div>
+                <div class="slide">
+                <img src="./src/assets/group-multiracial-teens-headsets-playing-video-games-video-game-club-with-blue-red-illumination-keyboard-mouse-with-illumination.jpg" alt="game 3">
+            </div>
+        </article>
+    </section>
+
+    <main id="container">
+        <h2>Jogos em Destaques</h2>
+        <section class="card">
+            <div class="game-card">
+                <img src="./src/assets/mario capa 2.webp" alt="Mario Bros">
+                <article class="card-content">
+                    <h3>Mario Bross</h3>
+                    <p class="preço1">R$ 219,99</p>
+                    <button class="btn-comprar" onclick="adicionarCarrinho('Mario Bros')" >Comprar</button>
+                    
+                </article>
+            </div>
+             <div class="game-card">
+                <img src="./src/assets/sonic.avif" alt="Sonic">
+                <article class="card-content">
+                    <h3>Sonic</h3>
+                    <p class="preço2">R$ 172,99</p>
+                    <button class="btn-comprar" onclick="adicionarCarrinho('Sonic')" >Comprar</button>
+                    
+                </article>
+            </div>
+             <div class="game-card">
+                <img src="./src/assets/Marvels-Spider-Man-Remastered-PS5.jpg" alt="Spider Man">
+                <article class="card-content">
+                    <h3>Spider Man Remastered</h3>
+                    <p class="preço3">R$ 250,00</p>
+                    <button class="btn-comprar" onclick="adicionarCarrinho('Spider Man Remastered')">Comprar</button>
+                    
+                </article>
+            </div>
+
+            </section>
+        
+
+    </main>
+    <footer>
+        <p>&copy; 2026 - Direitos Reservados</p>
+    </footer>
+
+    
+    <!-- JS EXTERNO -->
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
