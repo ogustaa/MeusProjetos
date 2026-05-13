@@ -26,7 +26,6 @@ Projeto de lógica de programação utilizando JavaScript.
 Estou utilizando este repositório para praticar programação, desenvolver projetos e evoluir minhas habilidades na área de tecnologia.
 
 ##  Atualmente estudando
-- JavaScript
 - Front-end
 - Back-end
 - Engenharia de Software
