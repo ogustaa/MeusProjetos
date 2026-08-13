@@ -1,16 +1,34 @@
-# React + Vite
+# Meu primeiro projeto em react, foi feito junto com o professor durante a aula de apresentação ao react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Calculadora de IMC
+Projeto simples desenvolvido para praticar conceitos de React e testar conhecimentos adquiridos durante os estudos.
 
-Currently, two official plugins are available:
+O usuário informa altura e peso, e a aplicação calcula o IMC (Índice de Massa Corporal) e exibe o resultado em uma tabela, destacando automaticamente a faixa de classificação correspondente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# O site possui:
+Formulário para inserir altura e peso
+Cálculo automático do IMC ao clicar em "Calcular"
+Tabela com as faixas de classificação (Abaixo do Peso, Peso Normal, Sobrepeso, Obesidade Grau I, II e III)
+Destaque visual da linha correspondente ao resultado calculado
+Validação simples dos campos (alerta caso os valores sejam inválidos)
 
-## React Compiler
+# Tecnologias utilizadas
+React
+Vite
+CSS3
+JavaScript (Hooks: useState)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# O que aprendi
+Componentização em React
+Manipulação de estado com useState
+Renderização condicional
+Manipulação de listas com map()
+Passagem de dados entre componentes via props
+Estruturação de projeto com Vite
+Estilização com CSS
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Como executar
+Clone o repositório
+Instale as dependências: npm install
+Rode o projeto: npm run dev
+Acesse o endereço mostrado no terminal (geralmente http://localhost:5173)
