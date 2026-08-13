@@ -7,6 +7,7 @@ O usuário informa altura e peso, e a aplicação calcula o IMC (Índice de Mass
 
 # O site possui:
 Formulário para inserir altura e peso
+
 Cálculo automático do IMC ao clicar em "Calcular"
 Tabela com as faixas de classificação (Abaixo do Peso, Peso Normal, Sobrepeso, Obesidade Grau I, II e III)
 Destaque visual da linha correspondente ao resultado calculado
